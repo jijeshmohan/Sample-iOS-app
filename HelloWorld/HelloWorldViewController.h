@@ -10,4 +10,6 @@
 
 @interface HelloWorldViewController : UIViewController
 
+@property  (copy,nonatomic) NSString *userName;
+
 @end
